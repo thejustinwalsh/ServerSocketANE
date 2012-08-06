@@ -1,0 +1,18 @@
+# OS X folder attributes
+.DS_Store
+
+# Xcode User Data
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+
+# Project Build and User Data
+bin/ServerSocket/*
+bin/default/*
+platform/ios/build/*
+config/build.yml
