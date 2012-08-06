@@ -33,9 +33,6 @@
 		00E0229D15CAEF420024EB9E /* ServerSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ServerSocket.c; sourceTree = SOURCE_ROOT; };
 		00E022AE15CAFB9D0024EB9E /* ss_socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ss_socket.c; sourceTree = SOURCE_ROOT; };
 		00E022AF15CAFB9D0024EB9E /* ss_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ss_socket.h; sourceTree = SOURCE_ROOT; };
-		00ECB02415CC78AB0048239A /* NetTestMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetTestMobile-Info.plist"; sourceTree = "<group>"; };
-		00ECB02615CC78AB0048239A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		00ECB02A15CC78AB0048239A /* NetTestMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetTestMobile-Prefix.pch"; sourceTree = "<group>"; };
 		00F2C34E15C8B78C007C6F3E /* libServerSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libServerSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F2C35115C8B78C007C6F3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00F2C35315C8B78C007C6F3E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -80,29 +77,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00ECB02215CC78AB0048239A /* NetTestMobile */ = {
-			isa = PBXGroup;
-			children = (
-				00ECB02315CC78AB0048239A /* Supporting Files */,
-			);
-			path = NetTestMobile;
-			sourceTree = "<group>";
-		};
-		00ECB02315CC78AB0048239A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00ECB02415CC78AB0048239A /* NetTestMobile-Info.plist */,
-				00ECB02515CC78AB0048239A /* InfoPlist.strings */,
-				00ECB02A15CC78AB0048239A /* NetTestMobile-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		00F2C34315C8B78C007C6F3E = {
 			isa = PBXGroup;
 			children = (
 				00F2C37415C8B78C007C6F3E /* ServerSocket */,
-				00ECB02215CC78AB0048239A /* NetTestMobile */,
 				00F2C35015C8B78C007C6F3E /* Frameworks */,
 				00F2C34F15C8B78C007C6F3E /* Products */,
 			);
@@ -225,17 +203,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		00ECB02515CC78AB0048239A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00ECB02615CC78AB0048239A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00F2C37D15C8B78C007C6F3E /* Debug */ = {
